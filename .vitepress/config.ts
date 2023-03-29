@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "dpietrzyk",
   description: "dpietrzyk - personal space",
+  base: '/dpietrzyk/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
